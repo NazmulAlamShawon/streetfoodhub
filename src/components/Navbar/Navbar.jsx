@@ -3,9 +3,9 @@ export const Navbar = () => {
     <div className="shadow-md bg-white dark:bg-gray-900  dark:text-white duration-200">
       <div className="  bg-primary ">
         <div className="flex justify-between items-center">
-          <div className="">logo</div>
-          <div>
-            <ul className=" flex gap-4">
+          <div className="m-3 p-3">logo</div>
+          <div className="m-3 p-3">
+            <ul className=" flex gap-4 ">
               <li>
                 <a href="#" className="inline-block py-4 px-4">
                   Home
