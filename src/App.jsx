@@ -1,12 +1,13 @@
 import { Navbar } from "./components/Navbar/Navbar";
-import {Home} from './pages/Home/Home'
+import Home from "./pages/Home";
+
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <home />
-       <h2>test</h2>
+      < Home />
+      <h2>test</h2>
     </div>
   );
 };
