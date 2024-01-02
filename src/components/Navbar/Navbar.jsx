@@ -1,6 +1,6 @@
 export const Navbar = () => {
   return (
-    <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200">
+    <div className="shadow-md bg-white dark:bg-gray-900  dark:text-white duration-200">
       <div className="container  bg-primary ">
         <div className="flex justify-between items-center">
           <div className="">logo</div>
