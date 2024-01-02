@@ -7,7 +7,7 @@ const App = () => {
     <div>
       <Navbar />
       < Home />
-      <h2>test</h2>
+      
     </div>
   );
 };
