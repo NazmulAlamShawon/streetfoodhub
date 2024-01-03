@@ -14,7 +14,7 @@ const TopRated = () => {
         const data = await response.json();
 
         // For simplicity, use the first 3 items as top-rated
-        const topRatedData = data.slice(0, 3);
+        const topRatedData = data.slice(0, 6);
 
         setTopRatedItems(topRatedData);
       } catch (error) {
@@ -26,7 +26,7 @@ const TopRated = () => {
   }, []);
 
   return (
-    <div className=" p-5 mx-auto p-4 bg-secondaryclr mt-3 text-white">
+    <div className="  mx-auto p-4 bg-secondaryclr mt-3 text-white">
       <h2 className="text-2xl font-bold mb-4 text-white">Top Rated</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {topRatedItems.map((item) => (
