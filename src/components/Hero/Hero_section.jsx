@@ -1,5 +1,5 @@
-
 import myImage from "../../../public/pngtree-yellow-gourmet-shading-cartoon-chef-restaurant-recruitment-background-material-image_133951.jpg";
+import { Link } from "react-router-dom";
 
 const Hero_section = () => {
   return (
@@ -7,9 +7,11 @@ const Hero_section = () => {
       <div className="flex gap-4 m-5 p-4 flex-col ">
         <img src={myImage} alt="Description" />
         <p className="text-center font-light ">Quick Order and Quick Service</p>
-        <button className="outline outline-red-700 animate-pulse  m-3 p-3">
-          Order Now
-        </button>
+        <Link to="/order">
+          <button className="outline w-full outline-red-700 animate-pulse m-3 p-3">
+            Order Now
+          </button>
+        </Link>
       </div>
     </div>
   );
