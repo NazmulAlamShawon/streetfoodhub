@@ -6,7 +6,7 @@ import Menu from "./pages/Menu";
 import Order from "./pages/Order";
 import Login from "./pages/Login";
 import OnlineOrder from "./pages/OnlineOrder";
-import Navbar from "./components/Navbar/Navbar";
+
 
 
 const App = () => {
