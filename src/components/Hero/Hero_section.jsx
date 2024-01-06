@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "../../../public/pngtree-yellow-gourmet-shading-cartoon-chef-restaurant-recruitment-background-material-image_133951.jpg";
+import myImage from "../../assets/pngtree-yellow-gourmet-shading-cartoon-chef-restaurant-recruitment-background-material-image_133951.jpg";
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
