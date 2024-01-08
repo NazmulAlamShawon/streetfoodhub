@@ -27,7 +27,7 @@ const TopRated = () => {
 
   return (
     <div className="  mx-auto p-4 bg-secondaryclr mt-3 text-white">
-      <h2 className="text-2xl font-bold mb-4 text-white">Top Rated</h2>
+      <h2 className="text-2xl font-bold mb-4 text-white">Top Rated menu</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
         {topRatedItems.map((item) => (
           <div key={item.id} className="border p-4">
